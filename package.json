@@ -1,0 +1,44 @@
+{
+  "name": "tokky",
+  "version": "1.0.0",
+  "description": "Node js logger package",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --platform=node --format=cjs --minify --outfile=dist/index.js",
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "tokky": "./dist/index.js"
+  },
+  "keywords": [
+    "logger",
+    "nodejs",
+    "tokky"
+  ],
+  "private": false,
+  "author": {
+    "name": "Anton Kalik",
+    "email": "antonkalik@gmail.com",
+    "url": "https://idedy.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "18.x.x"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/github": "^9.0.5",
+    "@semantic-release/npm": "^10.0.5",
+    "@semantic-release/release-notes-generator": "^11.0.7",
+    "cz-conventional-changelog": "^3.3.0",
+    "esbuild": "^0.19.2",
+    "eslint": "^8.49.0",
+    "prettier": "^3.0.3",
+    "semantic-release": "^21.1.1"
+  }
+}
