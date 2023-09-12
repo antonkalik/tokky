@@ -50,8 +50,6 @@
     "cz-conventional-changelog": "^3.3.0",
     "esbuild": "^0.19.2",
     "eslint": "^8.48.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
     "semantic-release": "^21.1.1"
   },
