@@ -1,7 +1,7 @@
 {
   "name": "tokky",
   "version": "0.0.0-development",
-  "description": "A Node.js logger package",
+  "description": "A node logger package",
   "main": "dist/index.js",
   "scripts": {
     "build": "esbuild src/index.js --bundle --platform=node --format=cjs --minify --outfile=dist/index.js",
